@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 import { log } from 'node:console';
 
-test('Test image clicking', async ({ page }) => {
+test('Test image reset', async ({ page }) => {
     await page.goto(`file://${process.cwd()}/index.html`);
 
     const button = page.getByRole('button');
