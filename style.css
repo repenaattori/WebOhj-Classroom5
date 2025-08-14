@@ -1,0 +1,12 @@
+div{ 
+    display: flex;
+}
+img{
+    display: block; 
+    height: 200px; 
+    margin: 0.5em;
+}
+button{
+    font-size: 2em; 
+    margin: 1em
+}
